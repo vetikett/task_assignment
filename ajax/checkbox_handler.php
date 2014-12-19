@@ -11,3 +11,5 @@ function setTaskStatus($checked, $id) {
 if ( isset($_POST['checked']) ) {
     setTaskStatus($_POST['checked'], $_POST['taskID']);
 }
+
+$hej = "baaaaam";
