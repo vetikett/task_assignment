@@ -1,0 +1,213 @@
+@import url(http://fonts.googleapis.com/css?family=Lato);
+
+body, html * {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    color: #525252;
+}
+
+p {
+    font-size: 18px;
+}
+
+li {
+    list-style: none;
+}
+.wrapper {
+    width: 700px;
+    margin: 0 auto;
+}
+
+.main-container .wrapper{
+    background-color: #FEF8C4;
+    padding-top: 20px;
+}
+
+
+.header-container {
+    background-color: cadetblue;
+
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h2 {
+    color: white;
+    display: inline-block;
+}
+
+/* == nav == */
+nav {
+    margin: 0 auto;
+    display: inline-block;
+}
+
+nav ul {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 6%;
+    color: white;
+}
+
+/* == login == */
+.login-logo {
+    display: inline-block;
+    margin-right: -10px;
+}
+
+.login  {
+    display: inline-block;
+    margin-left: 100px;
+}
+
+.login input {
+    font-size: 18px;
+    width: 130px;
+}
+
+.login input[type="submit"] {
+    background-color: cadetblue;
+    color: white;
+    padding: 4px 8px;
+    border: 1px solid white;
+    font-size: 18px;
+    width: auto;
+}
+
+.register {
+    width: 600px;
+    margin: 40px auto;
+}
+
+.register form {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.register form input {
+
+}
+
+.register-img {
+    display: inline-block;
+    margin-right: 120px;
+}
+
+.register-img img {
+    width: 200px;
+}
+
+.register form {
+    margin-bottom: 40px;
+}
+
+.register input {
+    display: block;
+    margin: 16px 0;
+    font-size: 18px;
+}
+
+.register input[type="submit"] {
+    background-color: cadetblue;
+    color: white;
+    padding: 4px 8px;
+    border: 1px solid white;
+    font-size: 18px;
+    width: auto;
+}
+
+/* == logout == */
+.logout-button {
+    display: inline-block;
+}
+
+.logout-button input {
+    background-color: cadetblue;
+    color: white;
+    padding: 6px 8px;
+    border: 1px solid white;
+}
+
+/* == tasks == */
+
+.create-task {
+    width:320px;
+    margin: 0 auto;
+}
+
+.create-task input {
+    width: 250px;
+    height: 34px;
+    font-size: 18px;
+}
+
+.create-task input[type="submit"] {
+    width: auto;
+    padding: 6px 5px;
+    background-color: cadetblue;
+    border: none;
+    color: white;
+}
+
+.tasks ul {
+    margin: 20px 40px;
+    padding-bottom: 40px;
+}
+
+.tasks li {
+    margin: 4px 0;
+    padding: 4px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.list-item-checked {
+    text-decoration: line-through;
+}
+
+.tasks form {
+    display: inline-block;
+}
+
+.checkbox-form input[type="submit"] {
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+}
+
+.tasks p {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.tasks-crud {
+    float: right;
+    display: inline-block;
+}
+
+.task-edit {
+    background-color: chocolate;
+    color: white;
+    padding: 0px 2px 2px;
+    border: none;
+    width: auto;
+    border-radius: 2px;
+}
+
+.task-remove {
+    background-color: darkred;
+    color: white;
+    padding: 0px 2px 2px;
+    margin-left: 10px;
+    border: none;
+    width: auto;
+    border-radius: 2px;
+}
